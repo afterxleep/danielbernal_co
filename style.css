@@ -2,7 +2,7 @@
 Theme Name: Daniel Bernal
 Theme URI: https://danielbernal.co
 Description: Clean Template for my personal blog
-Version: 2.1.5
+Version: 2.1.6
 Author: Daniel Bernal
 Author URI: http://danielbernal.co/
 Text Domain: danielbernal_co
@@ -298,8 +298,6 @@ h3,
 h4,
 h5,
 h6 {
-	clear: both;
-	margin-top: .5em;
 	margin-bottom: .5em;
 	font-family: "Lato", sans-serif;
 	line-height: 1.0;
@@ -479,7 +477,7 @@ code,
 kbd,
 tt,
 var {
-	font-size: 18px;
+	font-size: 14px;
 }
 
 pre pre,
@@ -1397,6 +1395,10 @@ img.aligncenter {
 .wp-caption .wp-caption-text,
 .wp-caption .wp-caption-dd {
 	margin: .875em 0;
+}
+
+.post figure.wp-block-image {
+	margin: 2em 0 2em 0;
 }
 
 /* Make sure embeds and iframes fit their containers */
